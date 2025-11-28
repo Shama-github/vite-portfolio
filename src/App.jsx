@@ -66,7 +66,7 @@ function App() {
         </section>
       </main>
       <footer className={styles.footer}>
-        <span>© {new Date().getFullYear()} John Doe. All rights reserved.</span>
+        <span>© John Doe. All rights reserved.</span>
       </footer>
     </div>
   );
