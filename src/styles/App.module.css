@@ -1,0 +1,41 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  padding: 6rem 1.5rem 4rem;
+}
+
+.section:nth-of-type(odd) {
+  background: transparent;
+}
+
+.section:nth-of-type(even) {
+  background: rgba(255, 255, 255, 0.48);
+  backdrop-filter: blur(18px);
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 7rem 2rem 4.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding: 8rem 0 5rem;
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+}
+
+.footer {
+  padding: 1.75rem 1.5rem 2.5rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+
